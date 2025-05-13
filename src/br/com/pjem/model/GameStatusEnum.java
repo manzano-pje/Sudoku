@@ -1,9 +1,10 @@
 package br.com.pjem.model;
 
 public enum GameStatusEnum {
-    NON_STARTED("Não iniciado"),
-    INCOMPLETE("Incompleto"),
-    COMPLETED("Completo");
+
+    NON_STARTED("não iniciado"),
+    INCOMPLETE("incompleto"),
+    COMPLETE("completo");
 
     private String label;
 
@@ -14,4 +15,5 @@ public enum GameStatusEnum {
     public String getLabel() {
         return label;
     }
+
 }
